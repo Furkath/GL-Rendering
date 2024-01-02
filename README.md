@@ -27,16 +27,18 @@ A c++ OpenGL rendering practice, including various shaders, GLSL programming, il
 <!-- Provide instructions on how to install and set up your project. Include any dependencies and steps needed for a successful installation. -->
 
 ```bash
-# You can utilize wmake to compile all c++ files 
-cd solver
-wmake
+# for Ubuntu and Debian-based
+sudo apt install pkg-config freeglut3 libglew-dev libglfw3 libsoil-dev libglm-dev
+cd build
+cmake ../
+make
 ```
 
 ## Usage
 
 <!-- Explain how to use your project. Include examples or code snippets if applicable. -->
   
-```bash
+```bash  
 cd run
 source source_to_run
 cd ../postplot
