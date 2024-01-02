@@ -1,1 +1,1 @@
-/usr/bin/g++ -rdynamic CMakeFiles/CGrender.dir/project.cpp.o -o CGrender  -lSOIL -lGL -lGLU -lGL -lGLEW -L/usr/lib/x86_64-linux-gnu -lglfw -lGLU -lGLEW -lglfw 
+/usr/bin/g++ -rdynamic CMakeFiles/CGrender.dir/project.cpp.o -o CGrender  -lSOIL -lGL -lGLU -lglut -lGLEW -L/usr/lib/x86_64-linux-gnu -lglfw 

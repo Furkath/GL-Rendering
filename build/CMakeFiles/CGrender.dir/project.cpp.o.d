@@ -1,6 +1,6 @@
 CMakeFiles/CGrender.dir/project.cpp.o: \
- /home/jim/TEST/OpenGL_Final_PROJ/project.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11/iostream \
+ /home/jim/TEST/OpenGL_Final_PROJ/new/GL-Rendering/project.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

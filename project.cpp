@@ -711,7 +711,7 @@ int main()
     glEnable(GL_MULTISAMPLE);
 
     // Create a GLFWwindow object that we can use for GLFW's functions
-    GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "CG_Final_Project", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "CG_rendering", nullptr, nullptr);
     glfwMakeContextCurrent(window);
 
     // Set the required callback functions

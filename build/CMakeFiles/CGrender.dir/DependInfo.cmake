@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jim/TEST/OpenGL_Final_PROJ/project.cpp" "CMakeFiles/CGrender.dir/project.cpp.o" "gcc" "CMakeFiles/CGrender.dir/project.cpp.o.d"
+  "/home/jim/TEST/OpenGL_Final_PROJ/new/GL-Rendering/project.cpp" "CMakeFiles/CGrender.dir/project.cpp.o" "gcc" "CMakeFiles/CGrender.dir/project.cpp.o.d"
   )
 
 # Targets to which this target links.

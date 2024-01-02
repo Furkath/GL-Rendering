@@ -1,4 +1,4 @@
-# Install script for directory: /home/jim/TEST/OpenGL_Final_PROJ
+# Install script for directory: /home/jim/TEST/OpenGL_Final_PROJ/new/GL-Rendering
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jim/TEST/OpenGL_Final_PROJ/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jim/TEST/OpenGL_Final_PROJ/new/GL-Rendering/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
