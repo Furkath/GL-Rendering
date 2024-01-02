@@ -38,11 +38,10 @@ make
 
 <!-- Explain how to use your project. Include examples or code snippets if applicable. -->
   
-```bash  
+```bash
+cp build/CGrender run/
 cd run
-source source_to_run
-cd ../postplot
-python newplot.py
+./CGrender
 ```
 ## Demo
 ![Vmag_demo](https://github.com/Furkath/TVD_Fluid_Simulator/blob/master/results/320_Re1000_UMIST/pic_mag.png)
