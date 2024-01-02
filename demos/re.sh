@@ -6,6 +6,7 @@ directory="/home/jim/TEST/OpenGL_Final_PROJ/new/GL-Rendering/demos"
 # Set the common prefix to be removed
 prefix="xxx "
 
+
 # Change to the directory
 cd "$directory" || exit
 
