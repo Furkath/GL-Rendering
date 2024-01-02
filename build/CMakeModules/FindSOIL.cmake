@@ -1,0 +1,31 @@
+# Try to find the SOIL library
+    #
+    # SOIL_INCLUDE_DIR
+    # SOIL_LIBRARY
+    # SOIL_FOUND
+
+    FIND_PATH(
+      SOIL_INCLUDE_DIR SOIL/SOIL.h
+      /usr/include
+    )
+
+    SET(STORE_CMAKE_FIND_FRAMEWORK ${CMAKE_FIND_FRAMEWORK})
+    SET(CMAKE_FIND_FRAMEWORK NEVER)
+
+    FIND_LIBRARY(
+      SOIL_LIBRARY
+      NAMES SOIL
+      PATH
+        /usr/lib
+        /usr/lib/x86_64-linux-gnu
+        /usr/lib64
+    )
+
+    SET(CMAKE_FIND_FRAMEWORK ${STORE_CMAKE_FIND_FRAMEWORK})
+    #SET(SOIL_LIBRARY /usr/lib/libSOIL.so)
+    IF (SOIL_INCLUDE_DIR AND SOIL_LIBRARY)
+       SET(SOIL_FOUND TRUE)
+    ENDIF (SOIL_INCLUDE_DIR AND SOIL_LIBRARY) 
+    MESSAGE(STATUS "SOIL include: ${SOIL_INCLUDE_DIR}")
+    MESSAGE(STATUS "SOIL lib: ${SOIL_LIBRARY}")
+
