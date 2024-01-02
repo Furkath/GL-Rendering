@@ -44,4 +44,4 @@ cd run
 ./CGrender
 ```
 ## Demo
-![Vmag_demo](https://github.com/Furkath/TVD_Fluid_Simulator/blob/master/results/320_Re1000_UMIST/pic_mag.png)
+![Scene_demo](https://github.com/Furkath/GL-Rendering/tree/master/demos/16-41-53.png)
