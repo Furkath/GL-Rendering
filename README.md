@@ -1,6 +1,6 @@
 # Project Title
 
-A self-built c++ fluid simulator with adaption of all kinds of Total Variation Diminishing (TVD) convection schemes.
+A c++ OpenGL rendering practice, including various shaders, GLSL programming, illumination models; transparency, shadows; modeling, heterogeneous textures; camera and motion.
 
 ## Table of Contents
 
@@ -14,7 +14,13 @@ A self-built c++ fluid simulator with adaption of all kinds of Total Variation D
 
 ## Features
 
-- Any fluxe limiter can be applied within TVD framework.
+- A rendering practice based on OpenGL, including many basic items for classic pipelines:
+- GLSL language of GPU programming for implementations of different shaders (vertex, fragment, geometric)
+- Shadow mapping for quick stratum and shadow calculation
+- Various illumination models (of local) and dual-sensitivity textures
+- Semi-opaque light mixing for tansparent objects and perspective adjustment
+- Graphic assistance for on-the-fly camera motion and model reading
+- Supersampling and bias correction 
 
 ## Installation
 
