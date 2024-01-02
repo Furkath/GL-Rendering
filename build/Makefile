@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CGproject
+# Target rules for targets named CGrender
 
 # Build rule for target.
-CGproject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CGproject
-.PHONY : CGproject
+CGrender: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CGrender
+.PHONY : CGrender
 
 # fast build rule for target.
-CGproject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGproject.dir/build.make CMakeFiles/CGproject.dir/build
-.PHONY : CGproject/fast
+CGrender/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGrender.dir/build.make CMakeFiles/CGrender.dir/build
+.PHONY : CGrender/fast
 
 project.o: project.cpp.o
 .PHONY : project.o
 
 # target to build an object file
 project.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGproject.dir/build.make CMakeFiles/CGproject.dir/project.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGrender.dir/build.make CMakeFiles/CGrender.dir/project.cpp.o
 .PHONY : project.cpp.o
 
 project.i: project.cpp.i
@@ -142,7 +142,7 @@ project.i: project.cpp.i
 
 # target to preprocess a source file
 project.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGproject.dir/build.make CMakeFiles/CGproject.dir/project.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGrender.dir/build.make CMakeFiles/CGrender.dir/project.cpp.i
 .PHONY : project.cpp.i
 
 project.s: project.cpp.s
@@ -150,7 +150,7 @@ project.s: project.cpp.s
 
 # target to generate assembly for a file
 project.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGproject.dir/build.make CMakeFiles/CGproject.dir/project.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGrender.dir/build.make CMakeFiles/CGrender.dir/project.cpp.s
 .PHONY : project.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CGproject"
+	@echo "... CGrender"
 	@echo "... project.o"
 	@echo "... project.i"
 	@echo "... project.s"

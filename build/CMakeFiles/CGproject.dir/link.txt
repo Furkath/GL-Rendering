@@ -1,0 +1,1 @@
+/usr/bin/g++ -rdynamic CMakeFiles/CGproject.dir/project.cpp.o -o CGproject  -lSOIL -lGL -lGLU -lGL -lGLEW -L/usr/lib/x86_64-linux-gnu -lglfw -lGLU -lGLEW -lglfw 

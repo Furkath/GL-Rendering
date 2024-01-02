@@ -99,4 +99,4 @@ log.make
 
 *.csv
 *.exe
-*.txt
+#*.txt

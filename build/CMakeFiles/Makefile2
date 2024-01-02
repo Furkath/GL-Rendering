@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/jim/TEST/OpenGL_Final_PROJ/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CGproject.dir/all
+all: CMakeFiles/CGrender.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CGproject.dir/clean
+clean: CMakeFiles/CGrender.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CGproject.dir
+# Target rules for target CMakeFiles/CGrender.dir
 
 # All Build rule for target.
-CMakeFiles/CGproject.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGproject.dir/build.make CMakeFiles/CGproject.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGproject.dir/build.make CMakeFiles/CGproject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jim/TEST/OpenGL_Final_PROJ/build/CMakeFiles --progress-num=1,2 "Built target CGproject"
-.PHONY : CMakeFiles/CGproject.dir/all
+CMakeFiles/CGrender.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGrender.dir/build.make CMakeFiles/CGrender.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGrender.dir/build.make CMakeFiles/CGrender.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jim/TEST/OpenGL_Final_PROJ/build/CMakeFiles --progress-num=1,2 "Built target CGrender"
+.PHONY : CMakeFiles/CGrender.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CGproject.dir/rule: cmake_check_build_system
+CMakeFiles/CGrender.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jim/TEST/OpenGL_Final_PROJ/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CGproject.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CGrender.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jim/TEST/OpenGL_Final_PROJ/build/CMakeFiles 0
-.PHONY : CMakeFiles/CGproject.dir/rule
+.PHONY : CMakeFiles/CGrender.dir/rule
 
 # Convenience name for target.
-CGproject: CMakeFiles/CGproject.dir/rule
-.PHONY : CGproject
+CGrender: CMakeFiles/CGrender.dir/rule
+.PHONY : CGrender
 
 # clean rule for target.
-CMakeFiles/CGproject.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGproject.dir/build.make CMakeFiles/CGproject.dir/clean
-.PHONY : CMakeFiles/CGproject.dir/clean
+CMakeFiles/CGrender.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CGrender.dir/build.make CMakeFiles/CGrender.dir/clean
+.PHONY : CMakeFiles/CGrender.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

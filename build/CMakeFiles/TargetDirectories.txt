@@ -1,0 +1,3 @@
+/home/jim/TEST/OpenGL_Final_PROJ/build/CMakeFiles/CGrender.dir
+/home/jim/TEST/OpenGL_Final_PROJ/build/CMakeFiles/edit_cache.dir
+/home/jim/TEST/OpenGL_Final_PROJ/build/CMakeFiles/rebuild_cache.dir
