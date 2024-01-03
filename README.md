@@ -1,4 +1,4 @@
-# Project Title
+# GL Rendering
 
 A c++ OpenGL rendering practice, including various shaders, GLSL programming, illumination models; transparency, shadows; modeling, heterogeneous textures; camera and motion.
 
