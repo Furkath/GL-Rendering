@@ -44,5 +44,5 @@ cd run
 ./CGrender
 ```
 ## Demo
-![Scene_demo 1](https://github.com/Furkath/GL-Rendering/tree/master/demos/16-41-53.png)
-![Scene_demo 2](https://github.com/Furkath/GL-Rendering/tree/master/demos/15-24-34.png)
+<img src="https://github.com/Furkath/GL-Rendering/tree/master/demos/16-41-53.png" alt="demo1" />
+<img src="https://github.com/Furkath/GL-Rendering/tree/master/demos/15-24-34.png" alt="demo2" />
