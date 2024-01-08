@@ -44,5 +44,6 @@ cd run
 ./CGrender
 ```
 ## Demo
-<img src="https://github.com/Furkath/GL-Rendering/tree/master/demos/16-41-53.png" alt="demo1" width="360" height="202.5" />
+<img src="https://github.com/Furkath/GL-Rendering/tree/master/demos/test.png" alt="demo1" />
+<!-- img src="https://github.com/Furkath/GL-Rendering/tree/master/demos/16-41-53.png" alt="demo1" width="360" height="202.5" / -->
 <img src="https://github.com/Furkath/GL-Rendering/tree/master/demos/15-24-34.png" alt="demo2" width="360" height="202.5" />
